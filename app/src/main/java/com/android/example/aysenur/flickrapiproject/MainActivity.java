@@ -14,13 +14,9 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        Log.d(TAG, "----------onCreate----------");
-
         super.onCreate(savedInstanceState);
-        //requestWindowFeature(Window.FEATURE_NO_TITLE);
-        //this.getSupportActionBar().hide();
-
         setContentView(R.layout.activity_main);
+
         handler = new Handler();
 
 

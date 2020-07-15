@@ -1,4 +1,4 @@
-package com.android.example.aysenur.flickrapiproject;
+package com.android.example.aysenur.flickrapiproject.fragments;
 
 
 import android.os.Bundle;
@@ -11,6 +11,9 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.android.example.aysenur.flickrapiproject.model.GalleryItem;
+import com.android.example.aysenur.flickrapiproject.R;
+import com.android.example.aysenur.flickrapiproject.helper.UrlManager;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;

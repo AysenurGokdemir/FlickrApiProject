@@ -1,4 +1,4 @@
-package com.android.example.aysenur.flickrapiproject;
+package com.android.example.aysenur.flickrapiproject.model;
 
 import android.util.Log;
 
@@ -23,7 +23,7 @@ public class GalleryItem implements Serializable  {
     }
 
     public String getUrl() {
-        Log.d("GalleryItem", "-------------getUrl-------: http://farm" + farm + ".static.flickr.com/" + server + "/" + id + "_" + secret + ".jpg" );
+        Log.d("GalleryItem", "---------getUrl-------: http://farm" + farm + ".static.flickr.com/" + server + "/" + id + "_" + secret + ".jpg" );
 
         return "http://farm" + farm + ".static.flickr.com/" + server + "/" + id + "_" + secret + ".jpg" ;
     }

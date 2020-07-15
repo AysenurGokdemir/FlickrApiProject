@@ -7,6 +7,7 @@ import android.support.v4.app.FragmentManager;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 
+import com.android.example.aysenur.flickrapiproject.fragments.GalleryFragment;
 
 
 public class GalleryActivity extends AppCompatActivity {
@@ -15,8 +16,6 @@ public class GalleryActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        Log.d(TAG, "----------onCreate----------");
-
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_gallery);
 

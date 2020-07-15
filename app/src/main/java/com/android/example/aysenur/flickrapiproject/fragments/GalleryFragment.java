@@ -1,4 +1,4 @@
-package com.android.example.aysenur.flickrapiproject;
+package com.android.example.aysenur.flickrapiproject.fragments;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -9,6 +9,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.android.example.aysenur.flickrapiproject.adapter.GalleryAdapter;
+import com.android.example.aysenur.flickrapiproject.model.GalleryItem;
+import com.android.example.aysenur.flickrapiproject.R;
+import com.android.example.aysenur.flickrapiproject.helper.UrlManager;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
@@ -23,14 +27,12 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.List;
 
-//import android.support.v7.widget.SearchView;
-
 
 public class GalleryFragment extends Fragment {
     private static final String TAG = "GalleryFragment" ;
 
     private static final int COLUMN_NUM = 3;
-    private static final int ITEM_PER_PAGE = 100;
+    private static final int ITEM_PER_PAGE = 20;
 
     private RequestQueue mRq;
     private RecyclerView mRecyclerView;
@@ -45,7 +47,6 @@ public class GalleryFragment extends Fragment {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
-        Log.d(TAG, "----------onCreate----------");
 
         super.onCreate(savedInstanceState);
         setHasOptionsMenu(true);

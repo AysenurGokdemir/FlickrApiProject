@@ -1,16 +1,13 @@
-package com.android.example.aysenur.flickrapiproject;
+package com.android.example.aysenur.flickrapiproject.helper;
 
 import android.net.Uri;
 
 public class UrlManager {
+
     private static final String TAG = UrlManager.class.getSimpleName();
-
-
     public static final String API_KEY = "9bc50a841892eedb6dac5a89f60a7101" ;
     private static final String ENDPOINT = "https://api.flickr.com/services/rest/" ;
     private static final String METHOD_GETRECENT = "flickr.photos.getRecent" ;
-
-
 
     // Singleton, make sure only max. 1 instance exist, even for multi-thread
 

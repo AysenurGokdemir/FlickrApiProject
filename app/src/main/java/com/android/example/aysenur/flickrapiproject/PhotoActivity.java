@@ -5,6 +5,8 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v7.app.AppCompatActivity;
 
+import com.android.example.aysenur.flickrapiproject.fragments.PhotoFragment;
+
 public class PhotoActivity extends AppCompatActivity {
     public static final String TAG = PhotoFragment.class.getSimpleName();
 

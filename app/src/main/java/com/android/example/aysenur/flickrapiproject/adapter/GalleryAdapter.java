@@ -1,4 +1,4 @@
-package com.android.example.aysenur.flickrapiproject;
+package com.android.example.aysenur.flickrapiproject.adapter;
 
 
 import android.content.Context;
@@ -9,6 +9,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
+import com.android.example.aysenur.flickrapiproject.model.GalleryItem;
+import com.android.example.aysenur.flickrapiproject.PhotoActivity;
+import com.android.example.aysenur.flickrapiproject.R;
 import com.bumptech.glide.Glide;
 
 import java.util.List;

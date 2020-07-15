@@ -3,7 +3,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@android:color/black"
-                tools:context="com.android.example.aysenur.flickrapiproject.PhotoFragment">
+                tools:context="com.android.example.aysenur.flickrapiproject.fragments.PhotoFragment">
 
     <ImageView
         android:id="@+id/photo"
@@ -26,9 +26,6 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:textColor="@android:color/white"/>
-
-
-
 
     </LinearLayout>
 
