@@ -1,18 +1,12 @@
-# BitTiger-MiniFlickr
-太阁X项目四期八组Mini Flickr
+<b>FLICKR API PROJECT</b>
 
-In this project, we use the Flickr API[1] to create an infinite scrolling list of photos, which is able to fetch photos from the Flickr Server by keyword searching using HTTP/JSON[2]. This app also support search suggestions. Tapping the image will open a single photo screen for downloading and opening the Flickr official app website.
+the users by communicating with the Flickr API The photos they shared according to the 'get recent' filter are shown.
+https://www.flickr.com/services/api/flickr.photos.getRecent.html
 
-This android application has the following functionality:
+<b>properties</b>
 
-Infinite scrolling with high performance;
-Pull refreshing;
-HTTP requesting/responding and JSON parsing;
-Asynchronous image loading;
-Menu with SearchView and SearchSuggestion;
-Activity and fragment;
-RecyclerView and adapter.
+application has a infinite scrolling and pagination. 
+20 photos are listed in each request.
 
-References:
-[1]Flickr API https://www.flickr.com/services/api/
-[2]JSON http://www.json.org
+When the image is clicked, the image will be displayed on a different screen full screen.
+
