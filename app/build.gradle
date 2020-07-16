@@ -5,7 +5,7 @@ android {
     buildToolsVersion "23.0.2"
 
     defaultConfig {
-        applicationId "com.android.example.aysenur.tinyflickr"
+        applicationId "com.android.example.aysenur.flickrapiproject"
         minSdkVersion 18
         targetSdkVersion 23
         versionCode 1
